@@ -1,0 +1,293 @@
+/* Colores */
+
+body {
+    background-color: #222; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+}
+
+header, footer {
+    background-color: #111; /* Secundario más oscuro */
+}
+
+a, a:visited {
+    color: #00ffff; /* Azul neón para enlaces */
+    text-decoration: none; /* Quitar la línea subrayada por defecto */
+}
+
+/* Tipografía */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente sans-serif moderna */
+}
+
+h1, h2, h3 {
+    font-weight: 300; /* Peso de fuente más ligero */
+}
+
+/* Estructura */
+
+body {
+    padding: 20px;
+}
+
+header {
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00ffff; /* Borde azul neón */
+}
+
+main {
+    max-width: 800px; /* Ancho máximo para centrar el contenido */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #333; /* Línea divisoria sutil */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+/* Estilos para secciones específicas */
+
+.educacion h2, .experiencia-laboral h2, .proyectos h2, .idiomas h2, .reconocimientos h2 {
+    margin-bottom: 15px;
+}
+
+.educacion ul li, .experiencia-laboral ul li, .proyectos ul li, .idiomas ul li, .reconocimientos ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #333; /* Línea divisoria sutil */
+}
+
+.educacion ul li p, .experiencia-laboral ul li p, .proyectos ul li p, .idiomas ul li p, .reconocimientos ul li p {
+    margin-bottom: 0;
+}
+
+/* Estilos para proyectos (portafolio.html) */
+
+/* Colores */
+
+/* Colores */
+
+body {
+    background-color: #222; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+}
+
+header, footer {
+    background-color: #111; /* Secundario más oscuro */
+}
+
+a {
+    color: #00ffff; /* Azul neón para enlaces */
+    text-decoration: none; /* Quitar la línea subrayada por defecto */
+}
+
+/* Tipografía */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente sans-serif moderna */
+}
+
+h1, h2, h3 {
+    font-weight: 300; /* Peso de fuente más ligero */
+}
+
+/* Estructura general */
+
+body {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px; /* Ancho máximo para centrar el contenido */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px;
+}
+
+/* Encabezado */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #00ffff; /* Borde azul neón */
+}
+
+header p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #00ffff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007fff;
+}
+
+/* Secciones */
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Sobre mí */
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Habilidades */
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 5px 10px;
+    background-color: #444;
+    border-radius: 5px;
+    color: #ccc; /* Texto gris claro */
+}
+
+/* Proyectos */
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.projects li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.projects li img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto 3D */
+}
+
+.projects li h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #fff; /* Texto blanco */
+}
+
+/* Contacto */
+
+.contact p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#img1{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: #eee;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+#img2{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: #eee;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+.social-media a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: #eee;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.social-media a:hover {
+    background-color: #ddd;
+}
+
+/* Pie de página */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+footer p {
+    margin: 0;
+}
